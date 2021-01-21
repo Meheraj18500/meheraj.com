@@ -1,0 +1,37 @@
+
+.side__bar .logo a::before{
+    border-top: 4px solid #72b626;
+    border-left: 4px solid #72b626;
+}
+.side__bar .logo a::after{
+    border-bottom: 4px solid #72b626;
+    border-right: 4px solid #72b626;
+}
+.portfolio .portfolio-filter button.active{
+    border-color: #72b626;
+    color: #72b626;
+}
+
+.services .services-item .services-item-inner .icon,
+.side__bar .navbar li a:not(.active):hover,
+.side__bar .navbar li a.active,
+.side__bar .nav-toggler i,
+.portfolio .portfolio-inner .portfolio-content .icon .fa,
+.blog .blog-item-inner .blog-info .blog-tag a,
+.contact .contact-info-inner .fa,
+.lightbox .lightbox-controls .prev-item .fa,
+.lightbox .lightbox-controls .next-item .fa{
+    color: #72b626;
+}
+
+.section__title h2::after,
+.section__title h2::before,
+.btn,
+.home .intro .social-links a,
+.about .about__content .skills .skill-item .progress .progress-bar,
+.about .about__content .timeline .timeline-item::before,
+.about .about__content .timeline .timeline-item::after,
+.services .services-item .services-item-inner:hover .icon,
+.blog .blog-item-inner .blog-date{
+    background: #72b626;
+}
